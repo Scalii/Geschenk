@@ -1,5 +1,5 @@
 // Dieser Code definiert den Spielschlüssel. Ersetze ihn durch deinen echten Code.
-const GAME_CODE = "ABCD-EFGH-IJKL-MNOP";
+const GAME_CODE = "68K3L88EHFMF348RUD7Z";
 
 const revealBtn = document.getElementById('revealBtn');
 const codeBox   = document.getElementById('codeBox');
