@@ -3,32 +3,26 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Battlefield 6 Geschenk</title>
+  <title>Geheimfrage | Battlefield 6 Geschenk</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <div class="container">
     <header class="header">
-      <span class="event-icons">🎄🎂</span>
-      <h1>Battlefield 6 Geschenk</h1>
-      <p class="subtitle">Frohe Weihnachten &amp; alles Gute zum Geburtstag!</p>
+      <span class="event-icons">🎄🎉🎂</span>
+      <h1>Willkommen zum Geschenk!</h1>
+      <p class="subtitle">Beantworte die Frage, um fortzufahren</p>
     </header>
     <main class="main-content">
-      <p>
-        Hier versteckt sich dein persönlicher Spiel‑Code für
-        <strong>Battlefield 6</strong>. Klicke auf den Button, um ihn zu
-        enthüllen.
-      </p>
-      <button id="revealBtn" class="btn">Code anzeigen</button>
-      <div id="codeBox" class="code-box hidden">
-        <code id="codeText">XXXX-XXXX-XXXX-XXXX</code>
-        <button id="copyBtn" class="btn small" type="button">Kopieren</button>
-      </div>
+      <p>Was ist die Abkürzung für <strong>Black‑Panther‑Elite</strong>?</p>
+      <input type="text" id="answerInput" class="input" placeholder="Deine Antwort..." />
+      <button id="submitBtn" class="btn">Überprüfen</button>
+      <p id="errorMsg" class="error-message hidden">Falsche Antwort, versuch es noch einmal!</p>
     </main>
     <footer class="footer">
-      <p>Viel Spaß beim Spiel und eine schöne Festzeit! 🎁</p>
+      <p>Diese Frage schützt dein Geschenk 🎁</p>
     </footer>
   </div>
-  <script src="script.js"></script>
+  <script src="quiz.js"></script>
 </body>
 </html>
